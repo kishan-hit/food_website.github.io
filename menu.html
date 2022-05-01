@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <!-- <link rel="stylesheet" media="screen and (max-width: 170px)" href="css/phone.css"> -->
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pushster&family=Tajawal:wght@200;800&display=swap" rel="stylesheet">
+
+        <style>
+            body{
+                background: url('images/bgimg2.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                /* filter: invert(100%); */
+            }
+            td img{
+                height: 195px;
+                width: 280px;
+                border-radius: 60px;
+            }
+            th td{
+                /* font-size: 40px;
+                padding: 34px 22px; */
+                font-weight: 600;
+            }
+            tr td{
+                font-size: 40px;
+                padding: 34px 22px;
+            }
+            .flex{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            table{
+                width: 70%;
+            }
+            button{
+                border-radius: 20px;
+                border-radius: 7px;
+                padding: 6px 11px;
+                color: white;
+                background-color: rgb(238, 60, 60);
+            }
+        </style>
+    </head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo.jpg" alt="MyOnlineMeal.com">
+        </div>
+        <ul class="nav">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="index.html#services-container">Services</a></li>
+            <li class="item"><a href="index.html#client-section">Clients</a></li>
+            <li class="item"><a href="#menu">Menu</a></li>
+            <li class="item"><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+        <!-- <div class="icons">
+            <i class="fas fa-bars" id="bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div> -->
+    </nav>
+
+    <div class="flex">
+        <table>
+            <th >
+                <!-- <td></td> -->
+                <td><b>Cuisines</b></td>
+                <td><b>Prices</b></td>
+            </th>
+            <tr>
+                <td><img src="images/menu-1.jpg"></td>
+                <td>Pizza</td>
+                <td>$20</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-2.jpg"></td>
+                <td>Burger</td>
+                <td>$20</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-3.jpg"></td>
+                <td>Crepe</td>
+                <td>$10</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-4.jpg"></td>
+                <td>Belgian Waffle</td>
+                <td>$20</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-5.jpg"></td>
+                <td>Cake</td>
+                <td>$25</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-6.jpg"></td>
+                <td>Cupcake</td>
+                <td>$10</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-7.jpg"></td>
+                <td>Tequila Sunrise</td>
+                <td>$25</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-8.jpg"></td>
+                <td>Goji berries</td>
+                <td>$15</td>
+                <td><button>Order Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="images/menu-9.jpg"></td>
+                <td>Orange Juice</td>
+                <td>$10</td>
+                <td><button>Order Now</button></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.FoodOnline.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>
